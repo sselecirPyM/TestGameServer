@@ -1,0 +1,682 @@
+{
+  "entities": [
+    {
+      "typeId": 900,
+      "script": "daylight",
+      "name": "Daylight",
+      "model": "Daylight"
+    },
+    {
+      "typeId": 1000,
+      "script": "crop",
+      "name": "Wheat",
+      "model": "Wheat_F1",
+      "crop": {
+        "growthId": 1001,
+        "lootId": 20003,
+        "productCount": 1,
+        "maxNutrition": 21,
+        "growthThreshold": 20,
+        "maxWater": 10
+      }
+    },
+    {
+      "typeId": 1001,
+      "script": "crop",
+      "name": "Wheat",
+      "model": "Wheat_F2",
+      "crop": {
+        "growthId": 1002,
+        "lootId": 20003,
+        "productCount": 1,
+        "maxNutrition": 41,
+        "growthThreshold": 40,
+        "maxWater": 40
+      }
+    },
+    {
+      "typeId": 1002,
+      "script": "matured_crop",
+      "name": "MaturedWheat",
+      "model": "Wheat_F3",
+      "crop": {
+        "lootId": 20003,
+        "productCount": 28,
+        "harvestScore": 280
+      }
+    },
+    {
+      "typeId": 1010,
+      "script": "crop",
+      "name": "Carrot",
+      "model": "Carrot_F1",
+      "crop": {
+        "growthId": 1011,
+        "lootId": 20016,
+        "productCount": 1,
+        "maxNutrition": 21,
+        "growthThreshold": 20,
+        "maxWater": 10
+      }
+    },
+    {
+      "typeId": 1011,
+      "script": "crop",
+      "name": "Carrot",
+      "model": "Carrot_F2",
+      "crop": {
+        "growthId": 1012,
+        "lootId": 20016,
+        "productCount": 1,
+        "maxNutrition": 41,
+        "growthThreshold": 40,
+        "maxWater": 40
+      }
+    },
+    {
+      "typeId": 1012,
+      "script": "matured_crop",
+      "name": "MaturedCarrot",
+      "model": "Carrot_F3",
+      "crop": {
+        "lootId": 20016,
+        "productCount": 16,
+        "harvestScore": 160
+      }
+    },
+    {
+      "typeId": 1020,
+      "script": "crop",
+      "name": "Tomato",
+      "model": "Tomatoe_F1",
+      "crop": {
+        "growthId": 1021,
+        "lootId": 20018,
+        "productCount": 1,
+        "maxNutrition": 21,
+        "growthThreshold": 20,
+        "maxWater": 10
+      }
+    },
+    {
+      "typeId": 1021,
+      "script": "crop",
+      "name": "Tomato",
+      "model": "Tomatoe_F2",
+      "crop": {
+        "growthId": 1022,
+        "lootId": 20018,
+        "productCount": 1,
+        "maxNutrition": 41,
+        "growthThreshold": 40,
+        "maxWater": 40
+      }
+    },
+    {
+      "typeId": 1022,
+      "script": "matured_crop",
+      "name": "MaturedTomato",
+      "model": "Tomatoe_F3",
+      "crop": {
+        "lootId": 20018,
+        "productCount": 16,
+        "harvestScore": 160
+      }
+    },
+    {
+      "typeId": 1900,
+      "name": "Water",
+      "model": "WaterCube",
+      "script": "water",
+      "crop": {
+        "water": 100,
+        "maxWater": 100
+      }
+    },
+    {
+      "typeId": 2000,
+      "name": "flower",
+      "model": "FlowerB1",
+      "script": "wild",
+      "crop": {
+        "lootId": 20200,
+        "maxLife": 1440,
+        "maxWater": 10
+      }
+    },
+    {
+      "typeId": 2001,
+      "name": "flower",
+      "model": "FlowerY1",
+      "script": "wild",
+      "crop": {
+        "lootId": 20200,
+        "maxLife": 1440,
+        "maxWater": 10
+      }
+    },
+    {
+      "typeId": 4001,
+      "name": "Tree_1",
+      "model": "_1_tree"
+    },
+    {
+      "typeId": 4002,
+      "name": "Tree_2",
+      "model": "_2_tree"
+    },
+    {
+      "typeId": 4003,
+      "name": "Tree_3",
+      "model": "_3_tree"
+    },
+    {
+      "typeId": 4004,
+      "name": "Tree_4",
+      "model": "_4_tree"
+    },
+    {
+      "typeId": 4005,
+      "name": "Tree_5",
+      "model": "_5_tree"
+    },
+    {
+      "typeId": 4006,
+      "name": "Tree_6",
+      "model": "_6_tree"
+    },
+    {
+      "typeId": 4007,
+      "name": "Tree_7",
+      "model": "_7_tree"
+    },
+    {
+      "typeId": 4008,
+      "name": "Tree_8",
+      "model": "_8_tree"
+    },
+    {
+      "typeId": 4009,
+      "name": "Tree_9",
+      "model": "_9_tree"
+    },
+    {
+      "typeId": 4010,
+      "name": "Tree_10",
+      "model": "_10_tree"
+    },
+    {
+      "typeId": 4011,
+      "name": "Tree_11",
+      "model": "_11_tree"
+    },
+    {
+      "typeId": 4012,
+      "name": "Tree_12",
+      "model": "_12_tree"
+    },
+    {
+      "typeId": 4013,
+      "name": "Rock_1",
+      "model": "_1_rock"
+    },
+    {
+      "typeId": 4020,
+      "script": "fruit_tree",
+      "name": "txt_apple_tree",
+      "model": "_6_tree",
+      "crop": {
+        "nutrition": 45,
+        "maxNutrition": 120,
+        "lootId": 20011,
+        "productCount": 4,
+        "randomProductCount": 1,
+        "maxWater": 100
+      }
+    },
+    {
+      "typeId": 5000,
+      "name": "Field",
+      "model": "Field_1",
+      "script": "farming_field",
+      "farmingField": {
+        "attachPoint": {
+          "Y": 0.1
+        },
+        "maxWater": 100
+      }
+    },
+    {
+      "typeId": 6000,
+      "name": "Item",
+      "model": "Item",
+      "script": "item",
+      "maxHp": 180,
+      "hp": 180,
+      "transform": {
+        "scale": {
+          "X": 2,
+          "Y": 2,
+          "Z": 2
+        }
+      }
+    },
+    {
+      "typeId": 9000,
+      "script": "shop",
+      "name": "Shop",
+      "model": "Shop_1",
+      "shop": {
+        "range": 8,
+        "sellItems": [
+          20002,
+          20003,
+          20016,
+          20018,
+          20500,
+          20504,
+          20600,
+          21001,
+          21002,
+          22001,
+          22002
+        ]
+      }
+    },
+    {
+      "typeId": 9001,
+      "script": "shop",
+      "name": "CandyShop",
+      "model": "CandyShop",
+      "shop": {
+        "range": 8,
+        "sellItems": [
+          20040,
+          20041,
+          20042
+        ]
+      }
+    },
+    {
+      "typeId": 10000,
+      "script": "player",
+      "name": "player",
+      "model": "Player",
+      "speed": 5,
+      "character": {
+        "inventoryCount": 40
+      }
+    },
+    {
+      "typeId": 10010,
+      "script": "sweeper",
+      "name": "sweeper",
+      "model": "box",
+      "speed": 5,
+      "character": {
+        "inventoryCount": 20
+      }
+    },
+    {
+      "typeId": 10011,
+      "script": "sweeper",
+      "name": "sweeper",
+      "model": "box",
+      "speed": 5,
+      "character": {
+        "inventoryCount": 20
+      }
+    },
+    {
+      "typeId": 10012,
+      "script": "random_dispenser",
+      "name": "txt_dispenser",
+      "model": "kitchenFridgeLarge",
+      "speed": 5,
+      "character": {
+        "inventoryCount": 8
+      },
+      "abilityProperty": {
+        "range1": 4,
+        "range2": 12
+      }
+    },
+    {
+      "typeId": 11000,
+      "script": "arrow",
+      "name": "arrow",
+      "model": "Arrow_1",
+      "maxHp": 2,
+      "hp": 2
+    },
+    {
+      "typeId": 11001,
+      "script": "seed_projectile",
+      "name": "seed",
+      "model": "Arrow_1",
+      "maxHp": 2,
+      "hp": 2
+    },
+    {
+      "typeId": 12001,
+      "script": "furniture",
+      "name": "bed",
+      "model": "bedSingle"
+    }
+  ],
+  "items": [
+    {
+      "typeId": 20001,
+      "name": "txt_gold_coin",
+      "icon": "Pack01_157",
+      "stack": 1,
+      "cost": 0
+    },
+    {
+      "typeId": 20002,
+      "name": "txt_water",
+      "icon": "water",
+      "stack": 1,
+      "cost": 6
+    },
+    {
+      "typeId": 20003,
+      "name": "txt_seed",
+      "icon": "Pack01_156",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20011,
+      "name": "txt_apple",
+      "icon": "Pack01_182",
+      "stack": 1,
+      "cost": 20
+    },
+    {
+      "typeId": 20012,
+      "name": "txt_banana",
+      "icon": "Pack01_183",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20013,
+      "name": "txt_lemon",
+      "icon": "Pack01_185",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20014,
+      "name": "txt_strawberry",
+      "icon": "Pack01_186",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20015,
+      "name": "txt_grapes",
+      "icon": "Pack01_187",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20016,
+      "name": "txt_carrot",
+      "icon": "Pack01_188",
+      "stack": 1,
+      "cost": 20
+    },
+    {
+      "typeId": 20017,
+      "name": "txt_maize",
+      "icon": "Pack01_189",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20018,
+      "name": "txt_tomato",
+      "icon": "Pack01_191",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20019,
+      "name": "txt_eggplant",
+      "icon": "Pack01_192",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20020,
+      "name": "txt_mushroom",
+      "icon": "Pack01_194",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20030,
+      "name": "txt_chicken",
+      "icon": "Pack01_197",
+      "stack": 1,
+      "cost": 100
+    },
+    {
+      "typeId": 20031,
+      "name": "txt_egg",
+      "icon": "Pack01_204",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20040,
+      "name": "txt_cheese",
+      "icon": "Pack01_205",
+      "stack": 1,
+      "cost": 100
+    },
+    {
+      "typeId": 20041,
+      "name": "txt_candy",
+      "icon": "Pack01_210",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20042,
+      "name": "txt_sugar",
+      "icon": "Pack01_208",
+      "stack": 1,
+      "cost": 14
+    },
+    {
+      "typeId": 20050,
+      "name": "txt_milk",
+      "icon": "Pack01_206",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20051,
+      "name": "txt_coffee",
+      "icon": "Pack01_212",
+      "stack": 1,
+      "cost": 10
+    },
+    {
+      "typeId": 20200,
+      "name": "txt_flower",
+      "icon": "Kyrise_146",
+      "stack": 1,
+      "cost": 2
+    },
+    {
+      "typeId": 20500,
+      "name": "txt_blink_dagger",
+      "icon": "Pack01_55",
+      "stack": 1,
+      "cost": 500
+    },
+    {
+      "typeId": 20501,
+      "name": "txt_shovel",
+      "icon": "Pack01_121",
+      "stack": 1,
+      "cost": 500
+    },
+    {
+      "typeId": 20504,
+      "name": "txt_sickle",
+      "icon": "gardens_26",
+      "stack": 1,
+      "cost": 300
+    },
+    {
+      "typeId": 20600,
+      "name": "txt_bow",
+      "icon": "Kyrise_68",
+      "stack": 1,
+      "cost": 500
+    },
+    {
+      "typeId": 20601,
+      "name": "seeder",
+      "icon": "Kyrise_73",
+      "stack": 50,
+      "cost": 500
+    },
+    {
+      "typeId": 21001,
+      "name": "txt_bed",
+      "icon": "cap_bedSingle",
+      "stack": 1,
+      "cost": 1000
+    },
+    {
+      "typeId": 21002,
+      "name": "txt_dispenser",
+      "icon": "cap_kichenFridgeLarge",
+      "stack": 1,
+      "cost": 1000
+    },
+    {
+      "typeId": 22001,
+      "name": "txt_arrow",
+      "icon": "Kyrise_9",
+      "stack": 10,
+      "cost": 100
+    },
+    {
+      "typeId": 22002,
+      "name": "txt_gold",
+      "icon": "Pack01_231",
+      "stack": 1,
+      "cost": 10000
+    }
+  ],
+  "specialItems": [
+    {
+      "typeId": 20002,
+      "script": "just_place_item",
+      "launchSpeed": 15,
+      "spawnType": 1900,
+      "range": 4
+    },
+    {
+      "typeId": 20003,
+      "script": "seed_place_item",
+      "launchSpeed": 15,
+      "spawnType": 1000,
+      "range": 10,
+      "useItemScore": 10
+    },
+    {
+      "typeId": 20016,
+      "script": "seed_place_item",
+      "launchSpeed": 15,
+      "spawnType": 1010,
+      "range": 10,
+      "useItemScore": 20
+    },
+    {
+      "typeId": 20018,
+      "script": "seed_place_item",
+      "launchSpeed": 15,
+      "spawnType": 1020,
+      "range": 10,
+      "useItemScore": 20
+    },
+    {
+      "typeId": 20200,
+      "script": "just_place_item",
+      "launchSpeed": 30,
+      "spawnType": 2000,
+      "range": 10
+    },
+    {
+      "typeId": 20500,
+      "script": "teleport_item",
+      "description": "teleport",
+      "maxStackCount": 1,
+      "range": 60
+    },
+    {
+      "typeId": 20501,
+      "script": "teleport_item",
+      "description": "teleport",
+      "maxStackCount": 1,
+      "range": 60
+    },
+    {
+      "typeId": 20504,
+      "script": "sickle_item",
+      "maxStackCount": 1,
+      "range": 4
+    },
+    {
+      "typeId": 20600,
+      "script": "bow_item",
+      "description": "projectile",
+      "maxStackCount": 1,
+      "launchSpeed": 40,
+      "spawnType": 11000,
+      "range": 60
+    },
+    {
+      "typeId": 20601,
+      "script": "seed_item",
+      "maxStackCount": 1000,
+      "launchSpeed": 15,
+      "impactSpawnType": 1000,
+      "spawnType": 11001,
+      "range": 15
+    },
+    {
+      "typeId": 21001,
+      "script": "just_place_item",
+      "launchSpeed": 10,
+      "spawnType": 12001,
+      "range": 4
+    },
+    {
+      "typeId": 21002,
+      "script": "place_facing_item",
+      "launchSpeed": 10,
+      "spawnType": 10012,
+      "range": 4
+    },
+    {
+      "typeId": 22001,
+      "launchSpeed": 40,
+      "spawnType": 11000,
+      "flags": "Arrow"
+    },
+    {
+      "typeId": 22002,
+      "script": "gold_item"
+    }
+  ],
+  "defaultItemTypeId": 6000
+}
